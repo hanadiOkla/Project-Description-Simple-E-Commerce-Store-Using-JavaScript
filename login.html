@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@9.0.0/css/mdb.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Shopping Cart</a>
+
+                <nav>
+                    <ul id="link">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Sign Up</a></li>
+                    </ul>
+                    <ul id="user-info">
+                        <li><a href="#" id="user"></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!-- Section: Design Block -->
+    <section class="text-center text-lg-start section-form">
+        <!-- Jumbotron -->
+        <div class="container py-4">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="card cascading-right bg-body-tertiary" style="
+                    backdrop-filter: blur(30px);
+                    ">
+                        <div class="card-body p-5 shadow-5 text-center">
+                            <h2 class="fw-bold mb-5">Shopping Cart || Login</h2>
+                            <form>
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <input type="text" id="username" class="form-control" />
+                                        <label class="form-label" for="form3Example1">First name</label>
+                                    </div>
+                                <!-- Password input -->
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <input type="password" id="password" class="form-control" />
+                                    <label class="form-label" for="form3Example4">Password</label>
+                                </div>
+
+
+                                <!-- Submit button -->
+                                <button type="submit" id="sign_in"  data-mdb-button-init data-mdb-ripple-init
+                                    class="btn btn-primary btn-block mb-4">
+                                    Sign up
+                                </button>
+                                <!-- register link -->
+                                <div class="text-center">
+                                    <p>Have not an account:<a href="register.html"> Register</a></p>                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg"
+                        class="w-100 rounded-4 shadow-4" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- Jumbotron -->
+    </section>
+    <!-- Section: Design Block -->
+
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.0.0/mdb.umd.min.js"></script>
+</body>
+
+</html>
